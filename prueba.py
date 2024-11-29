@@ -1,2 +1,2 @@
-hola = input("Dime tu nombre: ")
-print("hola")
+nombre = input("Dime tu nombre: ")
+print(f"Hola {nombre}!")
