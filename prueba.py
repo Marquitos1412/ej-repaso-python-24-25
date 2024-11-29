@@ -1,1 +1,2 @@
-print("Hola")
+hola = input("Dime tu nombre: ")
+print("hola")
