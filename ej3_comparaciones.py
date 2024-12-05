@@ -43,4 +43,4 @@ nombre_completo_sin_espacios = nombre_completo.replace(" ", "")
 caracteres_nombre_completo = len(nombre_completo_sin_espacios)
 comparacion_nombre_completo = 35 > caracteres_nombre_completo > 25
 print(f"¿Tiene mi nombre completo más de 35 caracteres y menos de 25?: {comparacion_nombre_completo}")
-#endregionMa
+#endregion
