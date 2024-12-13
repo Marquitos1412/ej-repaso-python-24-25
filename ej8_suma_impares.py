@@ -13,8 +13,13 @@ while valor_maximo < 1:
             print("No has introducido un numero entero.")
 
 for numero in range(0, valor_maximo+1):
-    lista_numeros_sumados += f"{numero} + "
-    valor_sumado += numero
+    es_impar = numero % 2
+    if es_impar != 0:
+        if numero >= valor_maximo-1:
+            lista_numeros_sumados += f"{numero}"
+        else:
+            lista_numeros_sumados += f"{numero} + "
+
+        valor_sumado += numero
 
 print(f"Sumatorio: {lista_numeros_sumados} = {valor_sumado}")
-#IMPARES
